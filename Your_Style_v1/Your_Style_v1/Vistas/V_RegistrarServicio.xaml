@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Your_Style_v1.Vistas.V_RegistrarServicio">
+    <ContentPage.Content>
+        <StackLayout Margin="5">
+            <Label Text="Registrar Servicio:" HorizontalOptions="CenterAndExpand" FontSize="Title"/>
+            <Entry Placeholder="Nombre:" Keyboard="Text" x:Name="txtNombre_servicio"/>
+            <Editor Placeholder="Descripción:" HeightRequest="150" Keyboard="Chat" x:Name="txtDescripcion_servicio"/>
+            <Entry Placeholder="Precio" Keyboard="Numeric" x:Name="txtPrecio_servicio"/>
+            <Entry Placeholder="id_promocion" Keyboard="Numeric" x:Name="txtId_promocion"/>
+            <Button Text="Registrar" x:Name="btnRegistrar_servicio" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Your_Style_v1.Vistas.V_RegistrarCita">
+    <ContentPage.Content>
+        <StackLayout Margin="5">
+            <Label Text="Registrar Cita" HorizontalOptions="CenterAndExpand" FontSize="Title"/>
+            <Label Text="Fecha"></Label>
+            <DatePicker x:Name="txtFecha_cita"></DatePicker>
+            <Label Text="Hora"></Label>
+            <TimePicker x:Name="txtHora_cita"></TimePicker>
+            <Entry Placeholder="id_cliente" Keyboard="Numeric" x:Name="txtId_cliente"/>
+            <Picker x:Name="txtId_servicio" Title="Servicio">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                        <x:String>7</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Button Text="Registrar" x:Name="btnRegistrar_cita" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

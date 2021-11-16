@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Your_Style_v1.Vistas.V_Inicio">
+    <ContentPage.Content>
+        <StackLayout Margin="5">
+            <Label Text="Inicio" FontSize="Title" HorizontalOptions="Center" />
+            <Button x:Name="btnX" VerticalOptions="Fill" Text="Cliente"/>
+            <Button x:Name="btnYe" VerticalOptions="Fill" Text="Cita"/>
+            <Button x:Name="btnBuscar" VerticalOptions="Fill" Text="Servicio"/>
+            <Button x:Name="btnRegistrar" VerticalOptions="Fill" Text="Promocion"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

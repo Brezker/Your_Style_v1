@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Your_Style_v1.Vistas.V_RegistroCliente">
+    <ContentPage.Content>
+        <StackLayout Margin="5">
+            <Label Text="Registro Cliente" HorizontalOptions="CenterAndExpand" FontSize="Title"/>
+            <Entry Placeholder="Nombre:" Keyboard="Text" x:Name="txtNombre_cliente"/>
+            <Entry Placeholder="Apellido:" Keyboard="Text" x:Name="txtApellido_cliente"/>
+            <Entry Placeholder="Correo electronico" Keyboard="Email" x:Name="txtCorreo_cliente"/>
+            <Entry Placeholder="Contraseña" Keyboard="Default" IsPassword="True" x:Name="txtContrasena_cliente"/>
+            <Button Text="Registrar" x:Name="btnRegistrar_cliente" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
